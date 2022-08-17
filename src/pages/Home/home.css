@@ -12,6 +12,14 @@
   border-radius: 4px;
 }
 
+.loading{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+  
+}
+
 .lista-filmes strong {
   margin-bottom: 14px;
   text-align: center;
