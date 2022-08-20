@@ -1,5 +1,6 @@
 import './header.css'
 import { Link } from 'react-router-dom'
+// import Primeflix from './docs/primeflix.png'
 
 
 
@@ -9,7 +10,12 @@ import { Link } from 'react-router-dom'
 function Header() {
   return(
     <header>
-      <Link className="logo" to="/"> Prime Flix </Link>
+      {/* <div>
+        <h1>
+        <img src={Primeflix} />
+        </h1>
+      </div> */}
+      <Link className="logo" to="/"> Home </Link>
       <Link className="favoritos" to="/favoritos"> Meus Filmes </Link>
     </header>
   )
