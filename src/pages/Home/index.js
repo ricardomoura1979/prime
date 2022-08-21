@@ -37,6 +37,7 @@ function Home() {
 
 
   return (
+    <body className="body">
     <div className="container">
       <div className="lista-filmes">
         {filmes.map((filme) => {
@@ -51,6 +52,7 @@ function Home() {
       </div>
 
     </div>
+    </body>
   )
 }
 

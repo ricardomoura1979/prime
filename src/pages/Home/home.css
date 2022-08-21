@@ -1,4 +1,7 @@
 
+.body {
+  background-color: white;
+}
 .lista-filmes {
   max-width: 800px;
   margin: 14px auto;
